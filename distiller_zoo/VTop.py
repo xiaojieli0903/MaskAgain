@@ -6,6 +6,7 @@ import torch
 
 
 class VTop(nn.Module):
+    #MMlocal
 
     def __init__(self,num_k=10):
         super(VTop, self).__init__()

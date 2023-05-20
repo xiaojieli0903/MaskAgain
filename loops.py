@@ -127,12 +127,12 @@ def train_distill(module_list,
                     sd[range(len), range(len)] = -1000
                     p_s = torch.nn.functional.log_softmax(sd/temperature_s, dim=-1)#be
                     p_t = torch.nn.functional.softmax(td/temperature_t, dim=-1)#to be
-                    loss_div = torch.nn.functional.kl_div(p_s, p_t, reduction='sum') / (batchsize * opt.num_f )
+                    loss_div = torch.nn.functional.kl_div(p_s, p_t, reduction='sum') / (batchsize * opt.num_f )#MM_relation
 
 
                 output_t = (output_t * bool_topk_pos_t.unsqueeze(-1))
                 outputs = (outputs * bool_topk_pos_t.unsqueeze(-1))
-                loss_mse = loss_func(output_t,outputs) * patch / opt.num_f
+                loss_mse = loss_func(output_t,outputs) * patch / opt.num_f#MM_hint
 
 
             
@@ -163,7 +163,7 @@ def train_distill(module_list,
                 loss_kd1 = criterion_kd1(att_s1, att_t1, v_s,v_t,t=opt.kd_T)                
                 loss_kd2 = criterion_kd2(att_s2, att_t2, v_s,v_t,t=opt.kd_T)
 
-                loss_kd = opt.beta_kd1 * loss_kd1 + opt.beta_kd2 * loss_kd2
+                loss_kd = opt.beta_kd1 * loss_kd1 + opt.beta_kd2 * loss_kd2#MM_hidden
 
             elif opt.distill == 'onlymse':
                 pass

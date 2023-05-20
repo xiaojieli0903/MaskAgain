@@ -6,6 +6,7 @@ import torch
 
 
 class HinTop(nn.Module):
+    #MMGlobal
 
     def __init__(self,num_k=10):
         super(HinTop, self).__init__()
