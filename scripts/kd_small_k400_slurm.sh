@@ -43,8 +43,8 @@ srun -p $PARTITION \
         --lr 1.5e-4 \
         --distill hybrid\
         --kd_T 1\
-        --num_k 15\
-        --num_f 15\
+        --num_k 10\
+        --num_f 10\
         --beta 1\
         --beta_kd1 0.1\
         --beta_kd2 3\
