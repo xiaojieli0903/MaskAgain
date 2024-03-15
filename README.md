@@ -54,5 +54,11 @@ This project is built upon [VideoMAE](https://github.com/MCG-NJU/VideoMAE.git). 
 If you think this project is helpful, please feel free to leave a star⭐️ and cite our paper:
 
 ```
-
+@inproceedings{li2023mask,
+  title={Mask Again: Masked Knowledge Distillation for Masked Video Modeling},
+  author={Li, Xiaojie and He, Shaowei and Wu, Jianlong and Yu, Yue and Nie, Liqiang and Zhang, Min},
+  booktitle={Proceedings of the 31st ACM International Conference on Multimedia},
+  pages={2221--2232},
+  year={2023}
+}
 ```
