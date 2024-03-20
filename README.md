@@ -1,17 +1,11 @@
-# Official PyTorch Implementation of MMKD.
+# Official PyTorch Implementation of Mask Again: Masked Knowledge Distillation for Masked Video Modeling (ACM MM 2023).
 
 ![MMKD Framework](figs/mmkd.jpg)
 
-
-
-
-> [**Mask Again: Masked Knowledge Distillation for Masked Video Modeling**]
-<!-- (https://arxiv.org/abs/)<br> -->
-> [Xiaojie Li](https://github.com/xiaojieli0903), [Shaowei He], [Jianlong Wu], [Yue Yu], [Liqiang Nie], [Min Zhang]<br>Harbin Institute of Technology
-
-<!-- ## 📰 News
-**[2023.5.20]** The pre-trained models and scripts of **ViT-S** and **ViT-B** are available! <br> -->
-<!-- **[2023.6.15]** MMKD is accepted by **ACMMM 2023**! 🎉 <br> -->
+> [**Mask Again: Masked Knowledge Distillation for Masked Video Modeling**](https://dl.acm.org/doi/10.1145/3581783.3612129)<br>
+> [Xiaojie Li](https://github.com/xiaojieli0903)^1,2, Shaowei He^1, [Jianlong Wu](https://jlwu1992.github.io)^1*, [Yue Yu](https://yuyue.github.io)^2, [Liqiang Nie](https://liqiangnie.github.io)^1*, [Min Zhang](https://zhangminsuda.github.io)^1<br>
+> ^1Harbin Institute of Technology, Shenzhen, ^2Peng Cheng Laboratory
+> *Corresponding Author
 
 
 ## 🚀 Main Results
@@ -44,14 +38,10 @@ We provide pre-trained and fine-tuned models in [MODEL_ZOO.md](MODEL_ZOO.md).
 
 We provide the script for visualization in [`vis_kd.sh`](scripts/vis_kd.sh).
 
-## 👍 Acknowledgements
-
-This project is built upon [VideoMAE](https://github.com/MCG-NJU/VideoMAE.git). Thanks to the contributors of this great codebase.
-
 
 ## ✏️ Citation
 
-If you think this project is helpful, please feel free to leave a star⭐️ and cite our paper:
+If you find this project useful for your research, please considering leaving a star⭐️ and citing our paper:
 
 ```
 @inproceedings{li2023mask,
@@ -62,3 +52,11 @@ If you think this project is helpful, please feel free to leave a star⭐️ and
   year={2023}
 }
 ```
+
+## 🔒 License
+
+This project is made available under the [Apache 2.0 license](LICENSE).
+
+## 👍 Acknowledgements
+
+This project is built upon [VideoMAE](https://github.com/MCG-NJU/VideoMAE.git). Thanks to the contributors of this great codebase.
