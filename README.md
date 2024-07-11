@@ -2,7 +2,7 @@
 
 ![MMKD Framework](figs/mmkd.jpg)
 
-> [**Mask Again: Masked Knowledge Distillation for Masked Video Modeling**](https://dl.acm.org/doi/10.1145/3581783.3612129)<br>
+> [**Mask Again: Masked Knowledge Distillation for Masked Video Modeling**](https://dl.acm.org/doi/10.1145/3581783.3612129)[ [PDF]](https://github.com/xiaojieli0903/MaskAgain/blob/master/Mask%20Again%20Masked%20Knowledge%20Distillation%20for%20Masked%20Video.pdf)<br>
 > [Xiaojie Li](https://github.com/xiaojieli0903)^1,2, Shaowei He^1, [Jianlong Wu](https://jlwu1992.github.io)^1*, [Yue Yu](https://yuyue.github.io)^2, [Liqiang Nie](https://liqiangnie.github.io)^1*, [Min Zhang](https://zhangminsuda.github.io)^1<br>
 > ^1Harbin Institute of Technology, Shenzhen, ^2Peng Cheng Laboratory
 > *Corresponding Author
